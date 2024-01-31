@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/d412de4753.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--Page Loader-->
+    <div class="page-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!--Background Circles-->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+
+    <!--Overlay Start-->
+    <div class="overlay">
+    </div>
+
+    <div class="main hidden">
+      <!--Header-->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li>
+                    <a href="#home" class="nav-item link-item">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about" class="nav-item link-item">About</a>
+                  </li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- Home -->
+      <section class="home-section align-items-center" id="home">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="home-text">
+              <p>Hello, I'm</p>
+              <h1>Anmol Benipal</h1>
+              <h2>Full-Stack Web Developer</h2>
+              <a href="#about" class="btn link-item">More about me</a>
+              <a href="#portfolio" class="btn link-item">Portfolio</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="images/01.png" alt="profile" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="about-section sec-padding " id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="images/02.png" alt="about img" />
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                My name is Anmol Kaur Benipal. I am from Ludhiana, Punjab. I
+                am currently in 3rd year pursuing B.E. in Information Technology
+                in University Institute of Engineering and Technology, Panjab
+                University, Chandigarh.
+              </p>
+              <h3>Skills</h3>
+              <div class="skills">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">Javascript</div>
+                <div class="skill-item">MongoDB</div>
+                <div class="skill-item">React</div>
+                <div class="skill-item">C</div>
+                <div class="skill-item">C++</div>
+                <div class="skill-item">MySQL</div>
+                <div class="skill-item">Bootstrap</div>
+                <div class="skill-item">Node.js</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">NumPy</div>
+                <div class="skill-item">Pandas</div>
+              </div>
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  class="tab-item active"
+                  data-target="#education"
+                >
+                  Education
+                </button>
+                <button
+                  type="button"
+                  class="tab-item"
+                  data-target="#experience"
+                >
+                  Experience
+                </button>
+              </div>
+
+              <!-- Education -->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date"> 2018 </span>
+                    <h4>
+                      Secondary (X) - <span
+                        >Sant Ishar Singh Ji Memorial Public School Karamsar
+                        Rara Sahib
+                      </span>
+                    </h4>
+                    <p>(CBSE board)</p>
+                    <p>CGPA: 9.68/10</p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date"> 2020 </span>
+                    <h4>
+                      Senior Secondary (XII) - 
+                      <span
+                        >Sant Ishar Singh Ji Memorial Public School Karamsar
+                        Rara Sahib
+                      </span>
+                    </h4>
+                    <p>(CBSE board)</p>
+                    <p>CGPA: 9.54/10</p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date"> 2021-2025 </span>
+                    <h4>
+                      Bachelor of Engineering (B.E), Information Technology - 
+                      <span
+                        >University Institute Of Engineering And
+                        Technology, Chandigarh
+                      </span>
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse error eligendi officiis numquam laboriosam possimus nostrum illum amet commodi repellendus. Commodi rem quidem ad suscipit odit beatae voluptas ea quasi.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Experience -->
+              <div class="tab-content" id="experience">
+                  <div class="timeline">
+                    
+                    <div class="timeline-item">
+                      <span class="date">2021-2023</span>
+                      <h4>Event and Logistics  Management - <span> Member of GDSC, IEEE and MITRA
+                        MAGBOARD (UIET)
+                        </span></h4>
+                      <p>Organized many fun activities during college fests.</p>
+                    </div>
+                    <div class="timeline-item">
+                      <span class="date">2023</span>
+                      <h4>Web Developer - <span>Design Innovation Centre, Panjab University</span></h4>
+                      <p>Spent about a month with the DIC website development team and learned many new skills.</p>
+                    </div>
+                  </div>
+              </div>
+
+              <a href="images/Portfolio.pdf" target="_blank" class="btn">Download CV</a>
+              <a href="#contact" class="btn link-item">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Portfolio-->
+      <section class="portfolio-section sec-padding " id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Recent Works</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="./images/Fitness.png" alt="FITandFAT">
+              </div>
+              <h3 class="portfolio-item-title">Fitness Website</h3>
+              <button class="btn view-project-btn" type="button">View Project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Join us on the exhilarating fitness adventure by exploring our frontend project. Whether you're seeking a complete lifestyle overhaul or simply looking to add more physical activity to your routine, our user-friendly interface, personalized features, and community engagement will empower you to take control of your fitness and transform your life.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>June 2023</span></li>
+                    <li>Technologies Used - <span>HTML, CSS, Bootstrap 4, Javascript, jQuery</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>View Online - <span><a href="https://anmolbenipal.github.io/MAPmyFITNESS/" target="_blank">www.fitness.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="./images/tour.png" alt="FITandFAT">
+              </div>
+              <h3 class="portfolio-item-title">Travel The World</h3>
+              <button class="btn view-project-btn" type="button">View Project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Discover the world's most enchanting destinations and embark on unforgettable journeys with us. Our tour website is your gateway to a myriad of extraordinary travel experiences tailored to suit all types of adventurers, from intrepid explorers to laid-back wanderers.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>July 2023</span></li>
+                    <li>Technologies Used - <span> React js, Node js,  Express js, MongoDB, JWT cookies</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>View Online - <span><a href="https://tour-website-frontend.vercel.app/home" target="_blank">www.tour.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="./images/FoodDelivery.png" alt="food">
+              </div>
+              <h3 class="portfolio-item-title">Food Delivery Website</h3>
+              <button class="btn view-project-btn" type="button">View Project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>The food delivery website is designed to provide a seamless and user-friendly experience for customers looking to order food online. The website has been carefully crafted using HTML and CSS to ensure an appealing and intuitive interface.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>December 2022</span></li>
+                    <li>Technologies Used - <span>HTML, CSS, Bootstrap 5</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>View Online - <span><a href="https://anmolbenipal.github.io/Food-Delivery-Service/" target="_blank">www.food.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="./images/Tindog.png" alt="Tindog">
+              </div>
+              <h3 class="portfolio-item-title">Tindog</h3>
+              <button class="btn view-project-btn" type="button">View Project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>tindog is a unique and innovative platform designed specifically for dog owners and dog lovers to connect and find compatible canine companionship. Inspired by the popular dating app Tinder, this platform aims to help dogs and their owners find new friends, playmates, and potential partners for doggy playdates and socialization.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>January 2023</span></li>
+                    <li>Technologies Used - <span>HTML, CSS, Bootstrap 5</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>View Online - <span><a href="https://anmolbenipal.github.io/tindog/" target="_blank">www.tindog.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="./images/MAPmyFITNESS.png" alt="MAPmyFITNESS">
+              </div>
+              <h3 class="portfolio-item-title">MAPmyFITNESS</h3>
+              <button class="btn view-project-btn" type="button">View Project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>The fitness tracker website is a comprehensive online platform designed to assist individuals in monitoring and managing their fitness goals and activities. The website offers a range of features and tools to track various aspects of physical health, providing users with valuable insights, motivation, and support on their fitness journeys.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>June 2023</span></li>
+                    <li>Technologies Used - <span> HTML, CSS, Bootstrap, Javascript, React </span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>View Online - <span><a href="https://anmolbenipal.github.io/MAPmyFITNESS2/" target="_blank">www.mapmyfitness.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="./images/cv.png" alt="FITandFAT">
+              </div>
+              <h3 class="portfolio-item-title">Personal Portfolio</h3>
+              <button class="btn view-project-btn" type="button">View Project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>A personal portfolio website is a digital platform that showcases an individual's skills, accomplishments, and work samples to potential clients, employers, or collaborators. It serves as an online resume and portfolio, allowing individuals to highlight their expertise, creativity, and professional experience in a visually appealing and easily accessible format.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>June 2022</span></li>
+                    <li>Technologies Used - <span>HTML, CSS</span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>View Online - <span><a href="https://anmolbenipal.github.io/cv1/" target="_blank">www.portfolio.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="./images/abc.png" alt="React Portfolio">
+              </div>
+              <h3 class="portfolio-item-title">React Portfolio</h3>
+              <button class="btn view-project-btn" type="button">View Project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Started by setting up app, exploring Lexica.art for AI-generated art, and adding interactivity using React hooks. Elevating the design skills with modern CSS3 techniques and dynamic class names. Wraping it up by implementing a secure form for my CV using EmailJS. Crafted a standout portfolio to showcase my skills and enhance CV !</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>June 2023</span></li>
+                    <li>Technologies Used - <span>React , Node.js </span></li>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>View Online - <span><a href="https://anmol-react-portfolio-sites.netlify.app/" target="_blank">www.react-portfolio.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="./images/eda.png" alt="FITandFAT">
+              </div>
+              <h3 class="portfolio-item-title">Sample SuperStore EDA</h3>
+              <button class="btn view-project-btn" type="button">View Project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>Exploring the world of data science by building a Python dashboard leveraging Streamlit, Pandas, NumPy, and other tools. Uncovering insights with seamless data exploration, descriptive statistics, and interactive visualizations. Streamlining workflows with robust Python libraries, adhering to industry best practices. Diving into classification models, perform hyperparameter tuning, and evaluating model performance using metrics like confusion matrix and precision-recall curve.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created - <span>December 2023</span></li>
+                    <li>Technologies Used - <span>Python ,Streamlit, Pandas, NumPy, Plotly Express </span></li>
+                    <li>Role - <span></span></li>
+                    <li>View Online - <span><a href="https://superstore-48ni.onrender.com/" target="_blank">www.superstore.com</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </section>
+
+      <!--Contact-->
+      <section class="contact-section sec-padding " id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+               <form>
+                <div class="row">
+                  <div class="input-group">
+                    <input type="text" placeholder="Name" class="input-control" required>
+                  </div>
+                  <div class="input-group">
+                    <input type="email" placeholder="Email" class="input-control" required>
+                  </div>
+                  <div class="input-group">
+                    <input type="text" placeholder="Subject" class="input-control" required>
+                  </div>
+                  <div class="input-group">
+                    <textarea placeholder="Message" class="input-control" required></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+                </div>
+               </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>anmolkaur4002@gmail.com</p>
+              </div>
+            
+           
+              <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p>+91 76**** *****</p>
+              </div>
+            
+              <div class="contact-info-item">
+                <h3>Follow Me</h3>
+                <div class="social-links">
+                  <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                  <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/anmollbenipal/" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/anmol-benipal-4a1798230/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://github.com/anmolbenipal" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://dribbble.com/" target="_blank"><i class="fab fa-dribbble"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <div class="portfolio-popup">
+       <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button class="btn pp-close" type="button"><i class="fas fa-times"></i></button>
+            <div class="pp-thumbnail">
+              <img src="images/FoodDelivery.png" alt="">
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body">
+            
+          </div>
+        </div>
+       </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
